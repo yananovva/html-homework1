@@ -1,0 +1,81 @@
+body {
+    background-color: #374151;
+}
+
+header a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+#heroButton {
+    background-color: rgba(31, 41, 55, 0.6);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+}
+
+section > p {
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.group,
+.group > p {
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.group {
+    font-size: 16px;
+}
+
+.group > p {
+    font-size: 14px;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+p {
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.heroSection {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.section {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+section a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+

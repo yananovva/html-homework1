@@ -39,3 +39,19 @@ button {
     font-weight: 400;
     font-size: 18px;
 }
+
+input [type="checkbox"] {
+    color: #666666;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.link {
+    color: #089FE0;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+
+}
