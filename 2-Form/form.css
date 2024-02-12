@@ -1,12 +1,33 @@
 main {
+    background: linear-gradient(
+            to right,
+            #FFA5A5,
+            #FFFFFF00
+    );
+    width: 1440px;
+    height: 1024px;
+}
+
+form {
     background-color: #FFFEFE;
+    width: 582px;
+    height: 573px;
+    position: absolute;
+    top: 225px;
+    left: 429px;
+    border-radius: 10px;
+
+
 }
 
 h1 {
     color: #333333;
     font-family: Open Sans, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 p {
@@ -14,21 +35,74 @@ p {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
 }
 
-a {
+.link {
     color: #089FE0;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 18px;
+    line-height: 24px;
+    width: 65px;
+    height: 26px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top: -42px;
+
 }
 
-input {
-    background-color: #F5F5F5;
-    color: #999999;
+.field {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 21px;
+    padding-left: 100px;
+    display: inline-block;
+    position: relative;
+    outline: none;
+    margin: 20px auto 0;
+}
+
+#company {
+    color: #1c1b1b;
+    width: 400px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
+}
+
+#firstname {
+    color: #999999;
+    width: 400px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
+    font-style: italic;
+}
+
+#lastname {
+    color: #999999;
+    width: 400px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
+    font-style: italic;
+}
+
+#email {
+    color: #999999;
+    width: 400px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
     font-style: italic;
 }
 
@@ -38,16 +112,29 @@ button {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 18px;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto 0;
+    position: relative;
+    left: 100px;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
 }
 
-input [type="checkbox"] {
+.agree {
     color: #666666;
     font-size: 14px;
     line-height: 19px;
-
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
 }
 
-.link {
+.link1 {
     color: #089FE0;
     font-family: Open Sans, sans-serif;
     font-size: 14px;
