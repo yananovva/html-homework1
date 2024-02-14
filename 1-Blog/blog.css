@@ -109,6 +109,7 @@ section a {
 .author {
     margin: 0 auto;
     max-width: 200px;
+    display: inline-block;
 }
 
 
@@ -123,20 +124,13 @@ section a {
 .author__text {
     display: inline-block;
     vertical-align: middle;
+    text-align: justify;
 }
 
 
 .author__text p {
     margin: 0;
     vertical-align: middle;
-}
-
-
-.photo1 {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 20px auto 0;;
 }
 
 

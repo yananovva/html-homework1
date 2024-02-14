@@ -67,6 +67,7 @@ a {
 label {
     color: #666;
     font-size: 14px;
+    cursor: default;
 }
 
 
@@ -86,6 +87,14 @@ input {
     line-height: 26px;
     border: 1px solid #f5f5f5;
     padding: 9px 35px 9px 11px;
+}
+
+
+input, textarea {
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
 }
 
 
@@ -143,6 +152,12 @@ input[name='company'] {
 }
 
 
+.field__firstname,
+.field__surname {
+    width: 49%;
+}
+
+
 .title {
     margin-bottom: 25px;
 }
@@ -153,10 +168,8 @@ input[name='company'] {
 }
 
 
-input, textarea {
-    width: 400px;
-    height: 35px;
-    border-width: thin;
-    border-radius: 5px;
-    border-color: #F5F5F5;
+.check {
+    width: unset;
+    height: unset;
 }
+
