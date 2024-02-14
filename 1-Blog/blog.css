@@ -20,11 +20,8 @@ span {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    width: 11px;
-    height: 23px;
-    top: 78px;
-    left: 192px;
     padding: 6px 12px;
+    border-radius: 5px;
 }
 
 
