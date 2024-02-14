@@ -1,144 +1,162 @@
-main {
-    background: linear-gradient(
-            to right,
-            #FFA5A5,
-            #FFFFFF00
-    );
-    width: 1440px;
-    height: 1024px;
+* {
+    box-sizing: border-box;
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(
+            225deg,
+            #fdc5c5 25.45%,
+            rgba(242, 152, 222, 0) 100%
+    ),
+    linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%),
+    #f39494;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
 
 form {
-    background-color: #FFFEFE;
     width: 582px;
-    height: 573px;
-    position: absolute;
-    top: 225px;
-    left: 429px;
     border-radius: 10px;
+    padding: 72px 94px 91px;
+    background-color: #fffefe;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-
+    /* flex */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px 1px;
 }
+
 
 h1 {
-    color: #333333;
-    font-family: Open Sans, sans-serif;
-    font-weight: 600;
+    color: #333;
     font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-    padding-top: 50px;
+    line-height: 54px;
+    margin: 0;
 }
+
 
 p {
-    color: #666666;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
+    color: #666;
     font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    margin-top: 10px;
+    margin: 0;
 }
 
-.link {
-    color: #089FE0;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    width: 65px;
-    height: 26px;
-    text-align: center;
-    position: relative;
-    left: 400px;
-    top: -42px;
 
+a {
+    color: #089fe0;
+    font-size: 14px;
+    text-decoration: none;
 }
 
-.field {
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
+
+label {
+    color: #666;
+    font-size: 14px;
+}
+
+
+span {
+    font-size: 14px;
+}
+
+
+input {
+    color: #999;
+    background-color: #f5f5f5;
     font-size: 16px;
-    line-height: 21px;
-    padding-left: 100px;
-    display: inline-block;
-    position: relative;
-    outline: none;
-    margin: 20px auto 0;
-}
-
-#company {
-    color: #1c1b1b;
-    width: 400px;
-    height: 35px;
-    border-width: thin;
-    border-radius: 5px;
-    border-color: #F5F5F5;
-}
-
-#firstname {
-    color: #999999;
-    width: 400px;
-    height: 35px;
-    border-width: thin;
-    border-radius: 5px;
-    border-color: #F5F5F5;
     font-style: italic;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    line-height: 26px;
+    border: 1px solid #f5f5f5;
+    padding: 9px 35px 9px 11px;
 }
 
-#lastname {
-    color: #999999;
-    width: 400px;
-    height: 35px;
-    border-width: thin;
-    border-radius: 5px;
-    border-color: #F5F5F5;
-    font-style: italic;
-}
-
-#email {
-    color: #999999;
-    width: 400px;
-    height: 35px;
-    border-width: thin;
-    border-radius: 5px;
-    border-color: #F5F5F5;
-    font-style: italic;
-}
 
 button {
-    background-color: #089FE0;
-    color: #FFFFFF;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    width: 400px;
-    text-align: center;
-    margin: 20px auto 0;
-    position: relative;
-    left: 100px;
-    padding: 10px 100px;
-    border: none;
+    padding: 9px 12px;
+    width: 100%;
+    border: 0;
     border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #089fe0;
+    position: relative;
 }
 
-.agree {
-    color: #666666;
-    font-size: 14px;
-    line-height: 19px;
-    font-weight: 400;
-    font-family: Open Sans, sans-serif;
-    text-align: center;
+
+button > img {
     position: absolute;
-    left: 100px;
-    margin-top: 10px;
+    top: 50%;
+    right: 22px;
+    transform: translateY(-50%);
 }
 
-.link1 {
-    color: #089FE0;
-    font-family: Open Sans, sans-serif;
-    font-size: 14px;
-    line-height: 19px;
-    text-decoration: none;
 
+input[name='company'] {
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.policy {
+    align-self: flex-start;
+}
+
+
+.policy input {
+    width: auto;
+}
+
+
+.field {
+    display: flex;
+    gap: 1px;
+}
+
+
+.field__firstname {
+    border-radius: 5px 0 0 5px;
+}
+
+
+.field__surname {
+    border-radius: 0 5px 5px 0;
+}
+
+
+.title {
+    margin-bottom: 25px;
+}
+
+
+.title a {
+    text-decoration: underline;
+}
+
+
+input, textarea {
+    width: 400px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
 }
