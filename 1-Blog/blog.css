@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #374151;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+header {
+    padding: 33px 50px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+span {
+    color: #FFFFFF;
+    background-color: #4B5563;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+
+header a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+
+nav {
+    margin: 30px 0 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+p {
+    color: #FFFFFF;
+}
+
+
+section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+section > p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #F5F5F5;
+    text-align: center;
+
+}
+
+
+section a {
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+
+.input__search {
+    display: inline-block;
+    position: relative;
+}
+
+
+.input__search::before {
+    content: url('images/search.svg');
+    position: absolute;
+    top: 12px;
+    left: 18px;
+}
+
+
+.input__search input {
+    position: relative;
+    background: #1f293799;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 11px 12px 11px 49px;
+    border-radius: 16px;
+}
+
+
+.author {
+    margin: 0 auto;
+    max-width: 200px;
+    display: inline-block;
+}
+
+
+.photo1 {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+
+.author__text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+
+.author__text p {
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+.photo2 {
+    border-radius: 5px;
+    margin: 20px auto 0;
+    width: 896px;
+    height: 594px;
+    display: block;
+}
+
+
+.heroSection {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 60px auto;
+    text-align: justify;
+    max-width: 600px;
+}
+
+
+.section {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px auto;
+    text-align: justify;
+    max-width: 600px;
+}
+
+
+.footer {
+    line-height: 28px;
+    color: #999999;
+    margin: 100px 0 80px;
+    text-align: center;
+}
+

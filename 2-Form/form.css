@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(
+            225deg,
+            #fdc5c5 25.45%,
+            rgba(242, 152, 222, 0) 100%
+    ),
+    linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%),
+    #f39494;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+form {
+    width: 582px;
+    border-radius: 10px;
+    padding: 72px 94px 91px;
+    background-color: #fffefe;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    /* flex */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px 1px;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0;
+}
+
+
+p {
+    color: #666;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+a {
+    color: #089fe0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+label {
+    color: #666;
+    font-size: 14px;
+    cursor: default;
+}
+
+
+span {
+    font-size: 14px;
+}
+
+
+input {
+    color: #999;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-style: italic;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    line-height: 26px;
+    border: 1px solid #f5f5f5;
+    padding: 9px 35px 9px 11px;
+}
+
+
+input, textarea {
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #F5F5F5;
+}
+
+
+button {
+    padding: 9px 12px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #089fe0;
+    position: relative;
+}
+
+
+button > img {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    transform: translateY(-50%);
+}
+
+
+input[name='company'] {
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.policy {
+    align-self: flex-start;
+}
+
+
+.policy input {
+    width: auto;
+}
+
+
+.field {
+    display: flex;
+    gap: 1px;
+}
+
+
+.field__firstname {
+    border-radius: 5px 0 0 5px;
+}
+
+
+.field__surname {
+    border-radius: 0 5px 5px 0;
+}
+
+
+.field__firstname,
+.field__surname {
+    width: 49%;
+}
+
+
+.title {
+    margin-bottom: 25px;
+}
+
+
+.title a {
+    text-decoration: underline;
+}
+
+
+.check {
+    width: unset;
+    height: unset;
+}
+
