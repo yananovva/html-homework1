@@ -1,58 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Форма</title>
+    <link rel="stylesheet" href="../2-Form/form.css">
 </head>
 <body>
 <main>
     <form action="#">
         <div>
             <h1>Регистрация</h1>
-            <p>Уже есть аккаунт?</p>
-            <a href="#">Войти</a>
+            <p class="title">Уже есть аккаунт?
+                <a href="#">Войти</a>
+            </p>
         </div>
-        <div>
+        <input
+                class="field"
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Моя компания:"
+                required/>
+        <div style="display: inline-block">
             <input
-                    type="text"
-                    name="company"
-                    id="company"
-                    placeholder="Моя компания:"
-                    required/>
-        </div>
-        <div>
-            <input
+                    class="field__firstname"
                     type="text"
                     name="firstname"
                     id="firstname"
                     placeholder="Имя"
                     required/>
-        </div>
-        <div>
+
             <input
+                    class="field__surname"
                     type="text"
                     name="lastname"
                     id="lastname"
                     placeholder="Фамилия"
                     required/>
         </div>
-        <div>
-            <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="E-mail"
-                    required/>
-        </div>
-        <button>Зарегистрироваться</button>
-        <div>
-            <label for="agree">Я прочитал и принимаю
+        <input
+                class="field"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                required/>
+        <button>Зарегистрироваться <img src="./image/arrow.svg" alt="иконка стрелки" />
+        </button>
+        <div class="policy">
+            <input class="check" type="checkbox" name="agree" id="agree"/>
+            <label for=agree>
+                 Я прочитал и принимаю
                 <a href="#">Условия пользования</a>
             </label>
-            <input
-                    type="checkbox"
-                    name="agree"
-                    id="agree"/>
         </div>
     </form>
 </main>
