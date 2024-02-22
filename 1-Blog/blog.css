@@ -1,27 +1,26 @@
 body {
     margin: 0;
-    background-color: #374151;
-    font-family: sans-serif;
+    font-family: 'Roboto', monospace;
     font-size: 16px;
     font-weight: 400;
+    background: linear-gradient(to bottom, #374151, #121928);
 }
 
 
 header {
-    padding: 33px 50px;
-    max-width: 1080px;
-    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    padding: 60px 180px;
+    gap: 77px;
+    align-items: center;
 }
 
 
 span {
     color: #FFFFFF;
-    background-color: #4B5563;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 22px;
-    padding: 6px 12px;
-    border-radius: 5px;
 }
 
 
@@ -35,7 +34,10 @@ header a {
 
 
 nav {
-    margin: 30px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
 }
 
 
@@ -43,6 +45,8 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 39px;
 }
 
 
@@ -51,6 +55,7 @@ h1 {
     line-height: 38px;
     color: #FFFFFF;
     text-align: center;
+    font-weight: 350;
 }
 
 
@@ -62,14 +67,16 @@ p {
 section {
     margin: 0 auto;
     text-align: center;
+    color: #FFFFFF;
 }
 
 
 section > p {
     font-size: 14px;
     line-height: 16px;
-    color: #F5F5F5;
+    color: lightgray;
     text-align: center;
+    font-weight: 300;
 
 }
 
@@ -81,9 +88,23 @@ section a {
 }
 
 
+.span {
+    display: flex;
+    gap: 11px;
+}
+
+
+.span span {
+    border-radius: 3px;
+    background: #4b5563;
+    padding: 6px 12px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+
 .input__search {
-    display: inline-block;
     position: relative;
+
 }
 
 
@@ -92,6 +113,7 @@ section a {
     position: absolute;
     top: 12px;
     left: 18px;
+
 }
 
 
@@ -108,8 +130,11 @@ section a {
 
 .author {
     margin: 0 auto;
-    max-width: 200px;
-    display: inline-block;
+    max-width: 214px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
 }
 
 
@@ -125,6 +150,14 @@ section a {
     display: inline-block;
     vertical-align: middle;
     text-align: justify;
+    gap: 16px;
+    font-weight: 300;
+}
+
+
+.group1 {
+    color: lightgray;
+    padding: 5px;
 }
 
 
