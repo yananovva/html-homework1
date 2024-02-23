@@ -91,6 +91,7 @@ section a {
 .span {
     display: flex;
     gap: 11px;
+    align-items: center;
 }
 
 
@@ -157,13 +158,11 @@ section a {
 
 .group1 {
     color: lightgray;
-    padding: 5px;
 }
 
 
 .author__text p {
     margin: 0;
-    vertical-align: middle;
 }
 
 
