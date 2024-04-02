@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css"/>
+    <link rel="stylesheet" href="./styles/page.css"/>
+    <link rel="stylesheet" href="./styles/components.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
+    <title>Finio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header__wrapper">
+        <a href="#">FINIO</a>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item"><a href="#">Возможности</a></li>
+                <li class="menu__item"><a href="#">Тарифы</a></li>
+                <li class="menu__item"><a href="#">Отзывы</a></li>
+                <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
+            </ul>
+        </nav>
+        <button class="button button_light">Личный кабинет</button>
+        <button
+                class="header__mobile-menu-button"
+                aria-expanded="false"
+                aria-haspopup="true">
+            <img src="./image/menu.svg"
+                 alt="Мобильное меню"
+            />
+        </button>
+    </div>
+</header>
+<section class="section section_blue">
+    <div class="hero">
+        <div class="hero__left">
+            <h1 class="hero__h1">Простой финансовый учёт для продавцов на маркетплейсах</h1>
+            <div class="hero__cta">
+                <button class="button button_light">Попробовать 14 дней бесплатно</button>
+            </div>
+        </div>
+        <div class="hero__market">
+            <img src="./image/marketplace.svg"
+                 alt="Логотипы популярных маркетплейсов"
+            />
+        </div>
+        <img class="hero__right"
+             src="./image/computer.svg"
+             alt="Изображение монитора компьютера"/>
+    </div>
+    <div class="hero__group">
+        <img src="./image/group.svg" alt="Преимущества сайта">
+    </div>
+</section>
+<section class="section section_white">
+    <div class="section__wrapper">
+        <h2 class="unit__header">Предотвращайте кассовые разрывы</h2>
+        <p class="paragraph paragraph_unit">
+            Заранее планируйте предстоящие платежи и поступления средств. Тем самым,
+            вы избежите неприятной ситуации с нехваткой средств на счетах
+        </p>
+        <div class="section__image image_right">
+            <img src="./image/balance.svg"
+                 alt="Диаграмма баланса"
+            />
+        </div>
+        <h2 class="unit__header">Отчёты о прибыли и убытках всегда под рукой</h2>
+        <p class="paragraph paragraph_unit">
+            Получите полную информацию о состоянии вашего бизнеса, включающую
+            все необходимые показатели для принятия правильных решений
+        </p>
+        <div class="section__image image_left">
+            <img src="./image/report.svg"
+                 alt="Диаграмма отчетов прибыли"
+            />
+        </div>
+        <h2 class="unit__header">Какие товары приносят прибыль</h2>
+        <p class="paragraph paragraph_unit">
+            Находите точки роста, делайте упор на рентабельные товары и
+            увеличивайте свой доход
+        </p>
+        <div class="section__image image_right">
+            <img src="./image/diagram.svg"
+                 alt="Диаграмма прибыли товаров"
+            />
+        </div>
+        <h2 class="unit__header">Сокращайте лишние расходы</h2>
+        <p class="paragraph paragraph_unit">
+            Анализируйте расходы, убирать ненужные издержки и находите
+            возможности повышать прибыльность бизнеса
+        </p>
+        <div class="section__image image_left">
+            <img src="./image/expenses.svg"
+                 alt="Отчет по расходам"
+            />
+        </div>
+        <div class="section__image image_left">
+            <img src="./image/price.svg"
+                 alt="Две увеличенные суммы"
+            />
+        </div>
+    </div>
+</section>
+
+
+<section class="unit">
+    <h2 class="unit__header">Тарифы</h2>
+    <p class="paragraph paragraph_unit">Все тарифы имеют полный функционал и отличаются только количеством
+        месяцев и выгодой
+    </p>
+    <div class="wrapper">
+        <section class="section_left">
+            <div class="section_left__form">
+                <div class="section__frame frame1">Выгода 0%</div>
+                <h3 class="section__h3">1 месяц</h3>
+                <p class="paragraph">Тариф подойдёт тем, кто ведёт краткосрочные проекты
+                </p>
+                <div class="container">
+                    <div class="item1">
+                        Общая стоимость
+                    </div>
+                    <div class="item2">
+                        1 990 ₽
+                    </div>
+                    <div class="item1">
+                        Ваша выгода
+                    </div>
+                    <div class="item2 item_none">
+                        0 ₽
+                    </div>
+                    <div class="item1">
+                        Стоимость месяца
+                    </div>
+                    <div class="item2">
+                        1 990 ₽/мес
+                    </div>
+                </div>
+                <button class="button button_dark">Бесплатно 14 дней</button>
+            </div>
+        </section>
+        <section class="section_center">
+            <div class="section_center__form">
+                <div class="section__frame">Выгода 25%</div>
+                <h3 class="section__h3">6 месяцев</h3>
+                <p class="paragraph">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт
+                </p>
+                <div class="container">
+                    <div class="item1">
+                        Общая стоимость
+                    </div>
+                    <div class="item2">
+                        8 940 ₽
+                    </div>
+                    <div class="item1">
+                        Ваша выгода
+                    </div>
+                    <div class="item2 item_yellow">
+                        3 000 ₽
+                    </div>
+                    <div class="item1">
+                        Стоимость месяца
+                    </div>
+                    <div class="item2">
+                        1 490 ₽/мес
+                    </div>
+                </div>
+                <button class="button button_dark">Бесплатно 14 дней</button>
+            </div>
+        </section>
+        <section class="section_right">
+            <div class="section_right__form">
+                <div class="section__frame">Выгода 50%</div>
+                <h3 class="section__h3_white">12 месяцев</h3>
+                <p class="paragraph paragraph_hover">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт
+                    и хочет
+                    сэкономить
+                </p>
+                <div class="container">
+                    <div class="item_light1">
+                        Общая стоимость
+                    </div>
+                    <div class="item_light2">
+                        11 880 ₽
+                    </div>
+                    <div class="item_light1">
+                        Ваша выгода
+                    </div>
+                    <div class="item2 item_yellow">
+                        12 000 ₽
+                    </div>
+                    <div class="item_light1">
+                        Стоимость месяца
+                    </div>
+                    <div class="item_light2">
+                        990 ₽/мес
+                    </div>
+                </div>
+                <button class="button button_light">Бесплатно 14 дней</button>
+            </div>
+        </section>
+    </div>
+</section>
+</body>
