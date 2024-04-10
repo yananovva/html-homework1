@@ -1,0 +1,44 @@
+/* Social */
+
+.pay-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.pay-icons__icon {
+    width: 254px;
+    height: 37px;
+}
+
+/*Images*/
+
+.unit__header_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.mobile_img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1128px;
+    height: 749px;
+}
+
+.mobile_img2 {
+    width: 1392px;
+    height: 532px;
+}
+
+@media (max-width: 375px) {
+    .mobile_img1 {
+        width: 677px;
+        height: 450px;
+        margin-bottom: 64px;
+    }
+}
