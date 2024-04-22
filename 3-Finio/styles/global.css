@@ -12,8 +12,15 @@
     --footer-text-main: rgba(255, 255, 255, 0.5);
     --footer-text-sec: rgba(255, 255, 255, 0.7);
     --footer-line: rgba(255, 255, 255, 0.08);
+    --menu-color: rgba(255, 255, 255, 0.8);
+    --color-img-shadow: 0px 0px 32px 0px #4E5D7C52;
+    --preview-shadow: 0px 0px 25px 0px #4E5D7C52;
+
+
+
 
     --border-47: 47px;
+    --border-16: 16px;
     --border-8: 8px;
     --layout-width: 1872px;
     --height: 406px;

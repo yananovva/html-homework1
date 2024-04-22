@@ -14,11 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="styles/global.css">
 </head>
 <body>
 <header class="header">
     <div class="header__wrapper">
-        <a href="#">FINIO</a>
+        <a href="#" class="header__logotype">FINIO</a>
         <nav>
             <ul class="menu">
                 <li class="menu__item"><a href="#">Возможности</a></li>
@@ -27,7 +28,7 @@
                 <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
             </ul>
         </nav>
-        <button class="button button_light">Личный кабинет</button>
+        <button class="header__enter">Личный кабинет</button>
         <button
                 class="header__mobile-menu-button"
                 aria-expanded="false"
@@ -55,79 +56,103 @@
              src="./image/computer.svg"
              alt="Изображение монитора компьютера"/>
     </div>
-    <div class="hero__group">
-        <img src="./image/group.svg" alt="Преимущества сайта">
-    </div>
 </section>
+<div class="hero__group">
+    <img src="./image/group.svg" alt="Преимущества сайта">
+</div>
 <section class="section section_white">
     <div class="section__wrapper">
-        <h2 class="unit__header">Предотвращайте кассовые разрывы</h2>
-        <p class="paragraph paragraph_unit">
-            Заранее планируйте предстоящие платежи и поступления средств. Тем самым,
-            вы избежите неприятной ситуации с нехваткой средств на счетах
-        </p>
-        <div class="section__image image_right">
+        <div class="section__text">
+            <h2 class="unit__header_1">Предотвращайте кассовые разрывы</h2>
+            <p class="paragraph paragraph_unit_1">
+                Заранее планируйте предстоящие платежи и поступления средств. Тем самым,
+                вы избежите неприятной ситуации с нехваткой средств на счетах
+            </p>
+        </div>
+        <div class="section__image image_right_1">
             <img src="./image/balance.svg"
                  alt="Диаграмма баланса"
             />
         </div>
-        <h2 class="unit__header">Отчёты о прибыли и убытках всегда под рукой</h2>
-        <p class="paragraph paragraph_unit">
-            Получите полную информацию о состоянии вашего бизнеса, включающую
-            все необходимые показатели для принятия правильных решений
-        </p>
-        <div class="section__image image_left">
+        <div class="section__text_reverse">
+            <h2 class="unit__header_2">Отчёты о прибыли и убытках всегда под рукой</h2>
+            <p class="paragraph paragraph_unit_2">
+                Получите полную информацию о состоянии вашего бизнеса, включающую
+                все необходимые показатели для принятия правильных решений
+            </p>
+        </div>
+        <div class="section__image image_left_1">
             <img src="./image/report.svg"
                  alt="Диаграмма отчетов прибыли"
             />
         </div>
-        <h2 class="unit__header">Какие товары приносят прибыль</h2>
-        <p class="paragraph paragraph_unit">
-            Находите точки роста, делайте упор на рентабельные товары и
-            увеличивайте свой доход
-        </p>
-        <div class="section__image image_right">
+        <div class="section__text">
+            <h2 class="unit__header_1">Какие товары приносят прибыль</h2>
+            <p class="paragraph paragraph_unit_1">
+                Находите точки роста, делайте упор на рентабельные товары и
+                увеличивайте свой доход
+            </p>
+        </div>
+        <div class="section__image image_right_2">
             <img src="./image/diagram.svg"
                  alt="Диаграмма прибыли товаров"
             />
         </div>
-        <h2 class="unit__header">Сокращайте лишние расходы</h2>
-        <p class="paragraph paragraph_unit">
-            Анализируйте расходы, убирать ненужные издержки и находите
-            возможности повышать прибыльность бизнеса
-        </p>
-        <div class="section__image image_left">
-            <img src="./image/expenses.svg"
-                 alt="Отчет по расходам"
-            />
+        <div class="section__text_reverse">
+            <h2 class="unit__header_2">Сокращайте лишние расходы</h2>
+            <p class="paragraph paragraph_unit_2">
+                Анализируйте расходы, убирать ненужные издержки и находите
+                возможности повышать прибыльность бизнеса
+            </p>
         </div>
-        <div class="section__image image_left">
-            <img src="./image/price.svg"
-                 alt="Две увеличенные суммы"
-            />
+        <div class="img_container">
+            <div class="section__image image_left_2">
+                <img src="./image/expenses.svg"
+                     alt="Отчет по расходам"
+                />
+            </div>
+            <div class="section__image image_left_3">
+                <img src="./image/price.svg"
+                     alt="Две увеличенные суммы"
+                />
+            </div>
         </div>
     </div>
 </section>
 <section class="section section_blue">
     <div class="section__wrapper_blue">
-        <h2 class="unit__header_white">Экономьте время и нервы на учете</h2>
-        <p class="paragraph paragraph_unit">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно
-            получать все важный показатели бизнеса на одном экране. А с помощью
-            мобильной версии вы сможете вносить расходы всего пару кликов
-        </p>
-        <button class="button button_light">Попробовать 14 дней бесплатно</button>
-        <img src="./image/preview.svg"
-             alt="Отчет превью"/>
+        <div class="section__title">
+            <h2 class="unit__header_white">Экономьте время и нервы на учете</h2>
+            <p class="paragraph paragraph_unit_white">Автоматическая синхронизация данных с маркетплейсов позволит вам
+                мгновенно
+                получать все важный показатели бизнеса на одном экране. А с помощью
+                мобильной версии вы сможете вносить расходы всего пару кликов
+            </p>
+        </div>
+        <div class="section__button">
+            <button class="button button_light">Попробовать 14 дней бесплатно</button>
+        </div>
+        <div class="container_preview">
+            <img class="img_preview_1"
+                 src="./image/preview_1.svg"
+                 alt="Отчет превью"/>
+            <img class="img_cursor"
+                 src="./image/cursor.svg"
+                 alt="Курсор"/>
+            <img class="img_preview"
+                 src="./image/preview.svg"
+                 alt="Отчет превью"/>
+        </div>
         <div class="compare">
             <h4 class="unit__header_small">Excel</h4>
-            <ul class="paragraph paragraph_unit">
+            <ul class="paragraph paragraph_unit_list">
                 <li>Долгое внесение данных</li>
                 <li>Ручной ввод данных с маркетплейсов</li>
                 <li>Не удобная работа с телефона</li>
                 <li>Сложность восприятия итоговых данных</li>
             </ul>
             <h4 class="unit__header_small">FINIO</h4>
-            <ul class="paragraph paragraph_unit">
+            <ul class="paragraph paragraph_unit_list">
                 <li>Внесение данных за пару кликов</li>
                 <li>Автоматическое получение данных по API</li>
                 <li>Удобная мобильная версия</li>
@@ -138,28 +163,59 @@
 </section>
 <section class="section section_white">
     <div class="section__wrapper">
-        <img src="./image/icon1.svg" alt="Иконка 1"/>
-        <h3>Надёжные сервера на территории России</h3>
-        <p class="paragraph paragraph_unit">
-            Никакие события не скажутся на бесперебойной работе сервиса
-        </p>
-        <img src="./image/icon2.svg" alt="Иконка 2"/>
-        <h3>Используем 256-битное SSL-шифрование</h3>
-        <p class="paragraph paragraph_unit">
-            Ваши данные не могут быть перехвачены, даже при использовании открытых Wi-Fi сетей
-        </p>
-        <img src="./image/icon3.svg" alt="Иконка 3"/>
-        <h3>Не передаём ваши данные 3-им лицам</h3>
-        <p class="paragraph paragraph_unit">
-            Все данные о доходах и расходах компании видны только вам и тем, кому вы открыли доступ
-        </p>
-        <img src="./image/line.svg" alt="Разделительная линия"/>
-        <h2 class="unit__header">Мобильная версия</h2>
-        <p class="paragraph paragraph_unit">
-            Пользоваться всем функционалом сервиса удобно в любом месте и с любых устройств
-        </p>
-        <img class="mobile_img1" src="./image/mobile_version.svg" alt="Мобильная версия"/>
-        <img class="mobile_img2" src="./image/customer_support.svg" alt="Поддержка клиентов"/>
+        <div class="section__part">
+            <img class="section__image"
+                 src="./image/icon1.svg"
+                 alt="Иконка 1"/>
+            <h3 class="section__second_h3">Надёжные сервера на<br/>
+                территории России</h3>
+            <p class="paragraph paragraph_unit_3">
+                Никакие события не скажутся на бесперебойной работе сервиса
+            </p>
+            <img class="section__image"
+                 src="./image/icon2.svg"
+                 alt="Иконка 2"/>
+            <h3 class="section__second_h3">Используем 256-битное<br/>
+                SSL-шифрование</h3>
+            <p class="paragraph paragraph_unit_3">
+                Ваши данные не могут быть перехвачены, даже при использовании открытых Wi-Fi сетей
+            </p>
+            <img class="section__image"
+                 src="./image/icon3.svg"
+                 alt="Иконка 3"/>
+            <h3 class="section__second_h3">Не передаём ваши<br/>
+                данные 3-им лицам</h3>
+            <p class="paragraph paragraph_unit_3">
+                Все данные о доходах и расходах компании видны только вам и тем, кому вы открыли доступ
+            </p>
+        </div>
+    </div>
+    <img src="./image/line.svg" alt="Разделительная линия"/>
+    <h2 class="unit__header">Мобильная версия</h2>
+    <p class="paragraph paragraph_unit">
+        Пользоваться всем функционалом сервиса удобно в любом месте и с любых устройств
+    </p>
+    <img class="mobile_img1" src="./image/mobile_version.svg" alt="Мобильная версия"/>
+    <div class="section__blue">
+        <img class="section__girl"
+             src="./image/girl_section.png"
+             alt="Поддержка клиентов"
+        />
+        <div class="section__support">
+            <h1 class="hero__h1">Поддержка клиентов</h1>
+            <p class="paragraph paragraph_unit_list">
+                Мы всегда готовы ответить на любые вопросы в онлайн чате или по телефону.
+            </p>
+            <img class="icon" src="./image/tg_icon.svg" alt="Иконка Telegram"/>
+            <p class="icon_text">Telegram Finio</p>
+            <img class="icon" src="./image/wa_icon.svg" alt="Иконка What's App"/>
+            <p class="icon_text">WhatsApp Finio</p>
+            <img class="icon" src="./image/email_icon.svg" alt="Иконка Email"/>
+            <p class="icon_text">hello@finio.ru</p>
+            <p class="paragraph paragraph_unit_list">
+                Кроме того, мы готовы помочь вам с переносом данных из других сервисов или Excel.
+            </p>
+        </div>
     </div>
     <section class="unit">
         <h2 class="unit__header">Тарифы</h2>
@@ -260,7 +316,17 @@
     </section>
     <div class="reviews">
         <h2 class="unit__header">Отзывы</h2>
-        <img class="unit__header_img" src="./image/reviews.svg" alt="Отзывы"/>
+        <div class="reviews__container">
+            <div class="reviews__blue">
+                <h3 class="section__h3_white review_text">Впервые за долгое время<br/>
+                    увидела свои расходы и<br/>
+                    доходы как на ладони.
+                </h3>
+                <p class="paragraph paragraph_unit_white">Дана Валеева</p>
+                <p class="paragraph paragraph_unit_white">Продавец Wildberries</p>
+            </div>
+        </div>
+        <img class="unit__header_img_w" src="./image/img_woman.png" alt="Изображение женщины"/>
     </div>
 </section>
 <footer class="footer">

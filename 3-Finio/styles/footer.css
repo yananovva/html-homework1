@@ -67,7 +67,7 @@
     margin-bottom: 38px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
     .footer__navigation {
         flex-direction: column;
         margin-bottom: 24px;
@@ -78,7 +78,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
     .footer__menu-header {
         flex-direction: column;
     }
