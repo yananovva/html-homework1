@@ -3,13 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    overflow: visible;
+    margin: 0 auto;
 }
 
 .hero__left {
     display: flex;
     flex-direction: column;
-    margin-left: 264px;
+    min-width: 458px;
 }
 
 .hero__h1 {
@@ -17,7 +18,6 @@
     font-weight: 800;
     line-height: 48px;
     color: var(--color-bg);
-    width: 515px;
 }
 
 .hero__cta {
@@ -33,6 +33,43 @@
     margin-top: 98px;
 }
 
+.wrapper_presentations {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.presentation__content {
+    width: 510px;
+    text-align: left;
+}
+
+.title_40 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: var(--color-h3-dark);
+    text-align: left;
+}
+
+.section__description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-description);
+    text-align: left;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation::nth-child(even) {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
 .section__title {
     text-align: center;
 }
@@ -44,22 +81,6 @@
     margin-bottom: 24px;
     text-align: center;
     margin-top: 80px;
-}
-
-.unit__header_1 {
-    width: 510px;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    text-align: left;
-}
-
-.unit__header_2 {
-    width: 510px;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    text-align: left;
 }
 
 .unit__header_white {
@@ -94,13 +115,6 @@
     margin-bottom: 32px;
 }
 
-.paragraph_unit_1 {
-    width: 526px;
-}
-
-.paragraph_unit_2 {
-    width: 560px;
-}
 
 .paragraph_unit_3 {
     text-align: left;
@@ -297,23 +311,6 @@
         height: 436px;
     }
 }
-
-.section__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    margin-left: 382px;
-    margin-top: 160px;
-}
-
-.section__text_reverse {
-    display: flex;
-    flex-direction: column;
-    margin-right: 380px;
-    margin-top: 160px;
-    margin-left: 972px;
-}
-
 
 .reviews__container {
     width: 516px;

@@ -7,7 +7,6 @@
 
 .header__wrapper {
     max-width: var(--layout-width);
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +19,6 @@
     line-height: 50px;
     color: var(--color-bg);
     text-decoration: none;
-    margin-left: 264px;
 }
 
 .header__logotype:hover {
@@ -41,7 +39,6 @@
     font-weight: 800;
     line-height: 24px;
     border: none;
-    margin-right: 263px;
 }
 
 .header__enter:hover {

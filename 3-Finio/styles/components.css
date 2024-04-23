@@ -63,54 +63,6 @@
     }
 }
 
-.image_right_1 {
-    display: flex;
-    width: 729px;
-    height: 445px;
-    margin-left: 927px;
-}
-
-.image_left_1 {
-    display: flex;
-    width: 644px;
-    height: 444px;
-    margin-left: 264px;
-}
-
-.image_right_2 {
-    display: flex;
-    width: 641px;
-    height: 416px;
-    margin-left: 946px;
-}
-
-.image_left_2 {
-    display: flex;
-    width: 100%;
-    height: auto;
-    margin-left: 264px;
-}
-
-.image_left_3 {
-    display: flex;
-    width: 100%;
-    height: auto;
-    margin-left: 457px;
-    border-radius: 16px;
-    color: var(--color-img-left);
-    position: absolute;
-    top: 105px;
-    left: 0;
-
-}
-
-.img_container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-bottom: 240px;
-}
-
 .hero__market {
     display: flex;
     flex-direction: column;
@@ -122,6 +74,11 @@
     display: flex;
     margin: 80px 300px;
 }
+
+.section__image {
+    width: 700px;
+}
+
 
 .container_preview {
     box-shadow: var(--preview-shadow);
