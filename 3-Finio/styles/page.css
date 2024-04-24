@@ -62,12 +62,10 @@
 
 .presentation {
     display: flex;
-    flex-direction: column;
 }
 
-.presentation::nth-child(even) {
+.presentation:nth-child(even) {
     flex-direction: row-reverse;
-    display: flex;
 }
 
 .section__title {

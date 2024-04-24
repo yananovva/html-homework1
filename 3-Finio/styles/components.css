@@ -75,8 +75,9 @@
     margin: 80px 300px;
 }
 
-.section__image {
-    width: 700px;
+.section__image img {
+    display: block;
+    width: 100%;
 }
 
 
